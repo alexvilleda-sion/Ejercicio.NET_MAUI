@@ -1,0 +1,12 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio_NET_MAUI.Pages.AreaCirculoPage"
+             Title="Área del Círculo">
+    <StackLayout Padding="20">
+        <Label Text="Radio:" />
+        <Entry x:Name="radioEntry" Keyboard="Numeric" />
+        <Button Text="Calcular Área" Clicked="OnCalcularAreaClicked" />
+        <Label x:Name="resultadoLabel" Text="" />
+        <Button Text="Limpiar Campos" Clicked="OnLimpiarClicked" />
+    </StackLayout>
+</ContentPage>

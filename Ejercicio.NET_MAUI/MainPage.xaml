@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Ejercicio.NET_MAUI.Pages"
+    x:Class="Ejercicio.NET_MAUI.MainPage">
+    <local:Pestana1/>
+
+    <ContentPage Title="Pestaña 2">
+        <StackLayout>
+            <Label Text="Estoy en pestaña 2"/>
+        </StackLayout>
+    </ContentPage>
+
+
+    <ContentPage Title="Pestaña 3">
+        <StackLayout>
+            <Label Text="Estoy en pestaña 3"/>
+        </StackLayout>
+    </ContentPage>
+
+</TabbedPage>
+    

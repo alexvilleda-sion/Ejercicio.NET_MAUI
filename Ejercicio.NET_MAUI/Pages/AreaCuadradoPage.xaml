@@ -1,0 +1,12 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio_NET_MAUI.Pages.AreaCuadradoPage"
+             Title="Área del Cuadrado">
+    <StackLayout Padding="20">
+        <Label Text="Lado:" />
+        <Entry x:Name="ladoEntry" Keyboard="Numeric" Placeholder="Ingrese el valor del lado" />
+        <Button Text="Calcular Área" Clicked="OnCalcularAreaClicked" />
+        <Label x:Name="resultadoLabel" Text="" />
+        <Button Text="Limpiar Campos" Clicked="OnLimpiarClicked" />
+    </StackLayout>
+</ContentPage>
